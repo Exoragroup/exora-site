@@ -1,31 +1,46 @@
-.site-header {
-  background-color: #000;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 20px;
-}
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Il tuo sito</title>
+  <link rel="stylesheet" href="style.css" />
 
-.logo {
-  height: 40px;
-}
+  <!-- Font Open Sauce (locale) -->
+  <style>
+    @font-face {
+      font-family: 'Open Sauce';
+      src: url('fonts/OpenSauceSans-Regular.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Open Sauce';
+      src: url('fonts/OpenSauceSans-Bold.ttf') format('truetype');
+      font-weight: bold;
+      font-style: normal;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Open Sauce', sans-serif;
+    }
+  </style>
+</head>
+<body>
 
-.menu ul {
-  list-style: none;
-  display: flex;
-  gap: 30px;
-  margin: 0;
-  padding: 0;
-}
+  <header class="site-header">
+    <div class="logo-container">
+      <img src="img/logo.png" alt="Logo" class="logo" />
+    </div>
+    <nav class="menu">
+      <ul>
+        <li><a href="#chi-siamo">Chi siamo</a></li>
+        <li><a href="#cosa-facciamo">Cosa facciamo</a></li>
+        <li><a href="#contatti">Contatti</a></li>
+      </ul>
+    </nav>
+  </header>
 
-.menu a {
-  text-decoration: none;
-  color: white;
-  font-size: 16px;
-  transition: opacity 0.2s ease;
-}
-
-.menu a:hover {
-  opacity: 0.7;
-}
+</body>
+</html>
