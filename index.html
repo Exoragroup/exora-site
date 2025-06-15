@@ -1,37 +1,97 @@
+
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Exora</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NavigaFacile</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0b0f1a;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      padding: 40px;
+      width: 100%;
+    }
+    .text-section {
+      max-width: 50%;
+    }
+    .logo {
+      font-weight: bold;
+      font-size: 1.2rem;
+      margin-bottom: 40px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .logo-icon {
+      width: 24px;
+      height: 24px;
+      background: linear-gradient(45deg, #9935ff, #f6379a);
+      border-radius: 4px;
+    }
+    h1 {
+      font-size: 3rem;
+      font-weight: 900;
+      line-height: 1.2;
+      margin: 0 0 30px 0;
+    }
+    .cta {
+      background: linear-gradient(to right, #9935ff, #f6379a);
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 50px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: opacity 0.3s;
+    }
+    .cta:hover {
+      opacity: 0.8;
+    }
+    .image-section img {
+      max-width: 100%;
+      border-radius: 16px;
+      box-shadow: 0 0 40px #1e1e80;
+    }
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        text-align: center;
+      }
+      .text-section, .image-section {
+        max-width: 100%;
+      }
+      h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Exora</h1>
-    <p class="slogan">Un ecosistema di insight. Senza rumore, solo direzione.</p>
-  </header>
-
-  <main>
-    <section>
-      <h2>Chi siamo</h2>
-      <p>Exora aiuta imprese e professionisti a comprendere meglio i propri dati.  
-      Con strumenti semplici, chiari e personalizzati.</p>
-    </section>
-
-    <section>
-      <h2>Per chi</h2>
-      <p>Per chi ha già i dati. Ma non li ha mai visti davvero.</p>
-    </section>
-
-    <section>
-      <h2>Come lavoriamo</h2>
-      <p>Dashboard, analisi, modelli. Visivi, leggibili, indipendenti.</p>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2025 Exora – Questo sito non raccoglie dati personali.</p>
-  </footer>
+  <div class="container">
+    <div class="text-section">
+      <div class="logo">
+        <div class="logo-icon"></div>
+        NavigaFacile
+      </div>
+      <h1>RESTA SEMPRE <br /> IN CONNESSIONE</h1>
+      <button class="cta">Scopri di più</button>
+    </div>
+    <div class="image-section">
+      <img src="your-image.jpg" alt="Smartphone con app" />
+    </div>
+  </div>
 </body>
 </html>
