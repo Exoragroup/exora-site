@@ -57,14 +57,14 @@ header {
 /* ... codice precedente ... */
 
 .home {
-  padding: 6rem 2rem 3rem;
+  margin: 10rem auto;
+  width: 800px;
   text-align: center;
 }
 
 .home h1 {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 300;
   color: #fff;
-  max-width: 800px;
-  margin: 10;
+  margin: 0;
 }
