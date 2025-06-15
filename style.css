@@ -54,3 +54,17 @@ header {
 .menu a:hover::after {
   width: 100%;
 }
+/* ... codice precedente ... */
+
+.home {
+  padding: 6rem 2rem 3rem;
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #fff;
+  max-width: 800px;
+  margin: 0 auto;
+}
