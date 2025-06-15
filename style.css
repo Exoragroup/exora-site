@@ -58,13 +58,13 @@ header {
 
 .home {
   margin: 10rem auto;
-  width: 1500px;
+  width: 800px;
   text-align: center;
 }
 
 .home h1 {
-  font-size: 2rem;
-  font-weight: 1000;
+  font-size: 4rem;
+  font-weight: 300;
   color: #fff;
   margin: 0;
 }
