@@ -1,17 +1,17 @@
+@font-face {
+  font-family: 'Open Sauce';
+  src: url('fonts/OpenSauceSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sauce';
+  src: url('fonts/OpenSauceSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
-
-.site-header {
-  background-color: #000; /* linea nera */
-  height: 60px;
-  display: flex;
-  align-items: center;
-  padding-left: 20px;
-}
-
-.logo {
-  height: 40px;
+  font-family: 'Open Sauce', sans-serif;
 }
