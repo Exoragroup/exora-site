@@ -71,3 +71,13 @@ nav a:hover {
   margin-right: auto;
   line-height: 1.6;
 }
+
+/* ===================== FOOTER ===================== */
+footer {
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #888888;
+  background-color: #000000;
+  border-top: 1px solid #333;
+}
